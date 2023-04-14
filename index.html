@@ -2,17 +2,13 @@
 <html lang="en">
 
 <head>
-
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Hugo 0.111.3">
-  <title>Kwadaso Government Hospital</title>
+  <title>Kwadaso SDA Hospital</title>
 
-  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/navbars/">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="/css/navbars.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/css/style.css">
@@ -25,7 +21,7 @@
 
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Kwadaso Government Hospital</a>
+        <a class="navbar-brand" href="#">Kwadaso SDA Hospital</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03"
           aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -37,163 +33,233 @@
               <a class="nav-link active" aria-current="page" href="#">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">DEPARTMENTS</a>
+              <a class="nav-link enabled" href="/resources.html">RESOURCES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link enabled" href="#">RESOURCES</a>
+              <a class="nav-link" href="/policies.html">POLICIES</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                aria-expanded="false">DEPARTMENTS</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/accidentcenter.html">Accident Center</a></li>
+                <li><a class="dropdown-item" href="/pharmacy.html">Pharmacy</a></li>
+                <li><a class="dropdown-item" href="/eyecenter.html">Eye Center</a></li>
+                <li><a class="dropdown-item" href="/dental.html">Dental Clinic</a></li>
+                <li><a class="dropdown-item" href="/surgery.html">Surgery</a></li>
+                <li><a class="dropdown-item" href="/physiotherapy.html">Physiotherapy</a></li>
+                <li><a class="dropdown-item" href="/child.html">Child Health</a></li>
+                <li><a class="dropdown-item" href="/nutrition.html">Nutrition</a></li>
+              </ul>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">POLICIES</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">DEPARTMENTS</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Accident Center</a></li>
-                  <li><a class="dropdown-item" href="#">Pharmacy</a></li>
-                  <li><a class="dropdown-item" href="#">Eye Center</a></li>
-                  <li><a class="dropdown-item" href="#">Dental Clinic</a></li>
-                  <li><a class="dropdown-item" href="#">Surgery</a></li>
-                  <li><a class="dropdown-item" href="#">Physiotherapy</a></li>
-                  <li><a class="dropdown-item" href="#">Child Health</a></li>
-                  <li><a class="dropdown-item" href="#">Nutrition</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link enabled" href="#">ABOUT US</a>
-              </li>
-           
+              <a class="nav-link enabled" href="/about.html">ABOUT US</a>
+            </li>
+
           </ul>
-          <form role="search">
-            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-          </form>
+          <a href="/appointment.html"><button class="btn btn-warning rounded-pill px-3" type="button">Book an
+              Appointment</button></a>
         </div>
       </div>
     </nav>
 
 
-   <!-- 
-    <h1>
-        <span>Welcome To</span>
-        <div class="message">
-          <div class="word1">Kwadaso</div>
-          <div class="word2">Government</div>
-          <div class="word3">Hospital</div>
-        </div>
-      </h1>
-    -->
     <div class="container" style="text-align: center;">
-        <div class="waviy">
-            <span style="--i:1">K</span>
-            <span style="--i:2">W</span>
-            <span style="--i:3">A</span>
-            <span style="--i:4">D</span>
-            <span style="--i:5">A</span>
-            <span style="--i:6">S</span>
-            <span style="--i:7">O</span>
-            <span style="--i:8">-</span>
-            <span style="--i:9">S</span>
-            <span style="--i:10">D</span>
-            <span style="--i:11">A</span>
-            <span style="--i:18">-</span>
-            <span style="--i:19">H</span>
-            <span style="--i:20">O</span>
-            <span style="--i:21">S</span>
-            <span style="--i:22">P</span>
-            <span style="--i:16">I</span>
-            <span style="--i:17">T</span>
-            <span style="--i:18">A</span>
-            <span style="--i:19">L</span>
-            
-           </div>
-    </div>  
+      <div class="waviy">
+        <span style="--i:1">K</span>
+        <span style="--i:2">W</span>
+        <span style="--i:3">A</span>
+        <span style="--i:4">D</span>
+        <span style="--i:5">A</span>
+        <span style="--i:6">S</span>
+        <span style="--i:7">O</span>
+        <span style="--i:8">-</span>
+        <span style="--i:9">S</span>
+        <span style="--i:10">D</span>
+        <span style="--i:11">A</span>
+        <span style="--i:18">-</span>
+        <span style="--i:19">H</span>
+        <span style="--i:20">O</span>
+        <span style="--i:21">S</span>
+        <span style="--i:22">P</span>
+        <span style="--i:16">I</span>
+        <span style="--i:17">T</span>
+        <span style="--i:18">A</span>
+        <span style="--i:19">L</span>
 
-  
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-    <!-- Indicators/dots -->
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-    </div>
-  
-    <!-- The slideshow/carousel -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="/images/img.jpg" alt="Los Angeles" class="d-block w-100" style="height: 250px; width: 200px;">
-      </div>
-      <div class="carousel-item">
-        <img src="/images/img2.png" alt="Chicago" class="d-block w-100" style="height: 250px; width: 200px;">
-      </div>
-      <div class="carousel-item">
-        <img src="/images/img4.jpg" alt="New York" class="d-block w-100" style="height: 250px; width: 200px;">
       </div>
     </div>
-  
-    <!-- Left and right controls/icons -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </button>
-  </div>
+
+
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/images/img.jpg" alt="img1" class="d-block w-100" style="height: 250px; width: 200px;">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/img2.png" alt="img2" class="d-block w-100" style="height: 250px; width: 200px;">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/img4.jpg" alt="img2" class="d-block w-100" style="height: 250px; width: 200px;">
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
 
     <div class="container">
-       <div>
-        <h2>Kwadaso Government Hospital</h2>
-        <p class="sub">Kwadaso Municipal Health Directorate Municipal Health Department in Kumasi Opening at 8:00 AM tomorrow Get</p>
-    </div>
-    </div>
-
- 
-
-
-
-
-  <div class="container">
-      <div class="row g-3">
-          <div class="col-12 col-md-6 col-lg-4">
-              <div class="card">
-                  <img src="./images/PAEDODONTICS.png" class="card-img-top" alt="A Street in Europe">
-                  <div class="card-body">
-                      <h5 class="card-title">Dental</h5>
-                      <p class="card-text">SERVICES
-                        The Department has a culture of dedicated service and measurable accountability to our patients. Our patients will continue to experience a seamless and sophisticated system of care that is efficient, safe and easy to navigate. We will continue to research our processes and systems to ensure high quality care with the most recent advances at all times.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-              </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-              <div class="card">
-                  <img src="./images/KBTH-Dental-002.jpg" class="card-img-top" alt="London">
-                  <div class="card-body">
-                      <h5 class="card-title">Physiotherapy</h5>
-                      <p class="card-text">SERVICES
-                        The Department has a culture of dedicated service and measurable accountability to our patients. Our patients will continue to experience a seamless and sophisticated system of care that is efficient, safe and easy to navigate. We will continue to research our processes and systems to ensure</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-              </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-              <div class="card">
-                  <img src="./images/KBTH-Dental-003.jpg" class="card-img-top" alt="New York">
-                  <div class="card-body">
-                      <h5 class="card-title">Nutrition</h5>
-                      <p class="card-text">SERVICES
-                        The Department has a culture of dedicated service and measurable accountability to our patients. Our patients will continue to experience a seamless and sophisticated system of care that is efficient, safe and easy to navigate. We will continue to research our processes and systems to ensure</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-              </div>
-          </div>
+      <div>
+        <h2>Kwadaso Seventh Day Adventist Hospital</h2>
+        <p class="sub">Kwadaso SDA Health Directorate Department in Kumasi Opening at 8:00 AM tomorrow</p>
       </div>
-  </div>
+    </div>
 
 
-  
 
-  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="/js/word.js"></script>
+
+
+
+    <div class="container">
+      <div class="row g-3">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img src="./images//KBTH-Dental-003.jpg" class="card-img-top" alt="A Street in Europe">
+            <div class="card-body">
+              <h5 class="card-title">Department of Surgery</h5>
+              <p class="card-text">
+                The Department of Surgery was one of the early departments established in the Korle Bu Teaching Hospital to provide surgery and consultancy services. It also offers training and conduct research.
+                The department occupies the main six-storey Surgery Block. The National Cardiothoracic Centre, National Reconstructive Plastics Surgery and Burns Centre all under Surgery.</p>
+              <a href="/surgery.html" class="btn btn-warning">read more..</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img src="./images/KBTH-Dental-002.jpg" class="card-img-top" alt="London">
+            <div class="card-body">
+              <h5 class="card-title">Eye Centre</h5>
+              <p class="card-text">
+                The Hospital’s Eye Centre provides specialist eye care services and attends to all eye-related diseases
+                it receives in and outside the sub-region. The Centre also trains medical professionals in
+                Ophthalmology.
+                To improve delivery and training in eye care, the Centre received major funding from the Ghana
+                government and Lions Club International in 2011 to build the Eye Centre.</p>
+              <a href="/eyecenter.html" class="btn btn-warning">read more..</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img src="./images/KBTH-Dental-003.jpg" class="card-img-top" alt="New York">
+            <div class="card-body">
+              <h5 class="card-title">Pharmacy</h5>
+              <p class="card-text">
+                The Department of Pharmacy is a dynamic, integral and critical part of patient care provided by the
+                Korle Bu Teaching Hospital.
+                The Department is responsible for the provision of pharmaceutical services to the Hospital.
+                “Pharmaceutical services” is the term used to represent all the services pharmacists provide to resolve
+                a patient’s drug therapy problems. </p>
+              <a href="/pharmacy.html" class="btn btn-warning">read more..</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container px-4 py-5" id="hanging-icons">
+        <h2 class="pb-2 border-bottom">Human Resources</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            </div>
+            <div>
+              <h3 style="color: #ffffff;" class="fs-2">Our staff - Human Resource</h3>
+              <p style="color: #ffffff;">The Department is staffed by the following Senior Dentists:</p>
+              <ul style="color: #ffffff;">
+                <li>Dr Matthew Owusu Boamah</li>
+                <li>Dr Paapa E B Puplampu</li>
+                <li>Dr Richardar N A Taylor Dawson</li>
+                <li>Dr. Mary N B Ayettey-Adamafio</li>
+                <li>Dr. Akua Boakyewaa Konadu</li>
+                <li>Dr Francis Adu-Poku</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            </div>
+            <div>
+              <h3 style="color: #ffffff;" class="fs-2">The management Team</h3>
+              <p style="color: #ffffff;">The management team is made up the following:</p>
+              <ul style="color: #ffffff;">
+                <li>Ms Lydia Agoba Essilfie ( Dep. Dir. Nursing Services)</li>
+                <li>Mr William Nartey (Administrator)</li>
+                <li>Mr. Kwesi Opoku Boateng (Accountant)</li>
+                <li>Mrs Mavis Quansah (Human Resource Manager)</li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            </div>
+            <div>
+              <h3 style="color: #ffffff;" class="fs-2">The Information Techology Team</h3>
+              <p style="color: #ffffff;">The technical team is made up the following:</p>
+              <ul style="color: #ffffff;">
+                <li>Mrs Philipa Oppong </li>
+                <li>Mr Flint Ayettey-Adamafio</li>
+                <li>Mr Prince Kyei</li>
+                <li>Dr Francis Adu-Poku</li>
+                <li>Mr Francis Ansah- Sasraku (Engineer)</li>
+                <li>Mr Patrick Boateng (IT Manager)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <div>
+      <footer class="footer mt-auto py-3 bg-body-tertiary">
+        <div class="container">
+          <span class="text-body-emphasis">Kwadaso Seventh Day Adventist Hospital 2023</span>
+        </div>
+      </footer>
+    </div>
+
+
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/word.js"></script>
 
 </body>
 
