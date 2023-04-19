@@ -22,8 +22,6 @@
 <body>
   <main>
 
-
-
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Kwadaso SDA Hospital</a>
@@ -41,7 +39,7 @@
               <a class="nav-link enabled" href="/resources.html">RESOURCES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/policies.html">POLICIES</a>
+              <a class="nav-link" href="/policies.html">POLICIES</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
@@ -56,7 +54,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link enabled" href="/about.html">ABOUT US</a>
+              <a class="nav-link enabled active" href="/about.html">ABOUT US</a>
             </li>
 
           </ul>
@@ -70,58 +68,38 @@
 
 
 
-    <section id="about" class="about">
-      <div class="container">
 
-        <div class="row">
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
-            <img src="/images/2020-08-18.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-            <h3>Policies</h3>
-            <p class="fst-italic">
-
-              Health care facilities generate different kinds of waste during patient care and daily operations which
-              has
-              the potential to contribute to infections among hospital staff, patients, caregivers, and pollution of the
-              environment. The dangers associated with health care waste have contributed to the global attention it
-              has received from many countries and stakeholders. Making a deliberate effort to manage such waste
-              properly to safeguard human health from various risks associated with such waste and protecting
-              environmental integrity is an important public health imperative.
-              Health Care Waste (HCW) includes all solid and liquid waste (both hazardous and non-hazardous)
-              generated related to medical procedures or the performance of medical research involving humans and
-              animals. In addition, it includes the same types of waste originating from minor and scattered sources
-              that
-              are produced in the course of health care undertaken in the home (e.g. home dialysis, self-administration
-              of insulin,recuperative care).
-
-            </p>
-
-          </div>
+<div class="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5" tabindex="-1" role="dialog" id="modalSignin">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content rounded-4 shadow">
+        <div class="modal-header p-5 pb-4 border-bottom-0">
+          <h1 class="fw-bold mb-0 fs-2" style="color:chocolate;">Staff Login here</h1>
         </div>
+  
+        <div class="modal-body p-5 pt-0">
+            <form action="login_page.php" method="post" role="form" class="php-form">
+            <div class="form-floating mb-3">
+              <input type="email" name="email" id="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com" required>
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="password" name="password" id="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password" required>
+              <label for="floatingPassword">Password</label>
+            </div>
+            <button class="w-100 mb-2 btn btn-lg rounded-3 btn-info" type="submit" >Staff Login</button>
 
+
+          </form>
+        </div>
       </div>
-    </section>
-
-
-
-
-
-
-    <div>
-      <footer class="footer mt-auto py-3 bg-body-tertiary">
-        <div class="container">
-          <span class="text-body-secondary">Kwadaso Seventh Day Adventist Hospital 2023</span>
-        </div>
-      </footer>
     </div>
+  </div>
+  
 
+  </main>
 
-
-
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/word.js"></script>
-
+  
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/word.js"></script>
 </body>
-
-</html>
+</html>  
